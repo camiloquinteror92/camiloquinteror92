@@ -19,16 +19,16 @@
 
 ### What I'm building now
 
-**CTO at OWLY.** Owly CRM is a multi-tenant sales platform for real-estate developers in Colombia. I built it from the first commit to production.
+**CTO at OWLY.** I built a multi-tenant sales platform for real-estate developers in Colombia, from the first commit to production.
 
 - **Backend:** Django / DRF, PostgreSQL 16, Redis and Celery across 40 modular apps, with tenant isolation enforced in CI
 - **Real time:** WebSockets with Django Channels and Redis, replacing 5-second polling
 - **Integrations:** a construction ERP (154 endpoints, two-way sync) and a mortgage bank (mutual TLS, AES-GCM, OAuth)
-- **Infrastructure:** AWS ECS Fargate, RDS, ElastiCache, S3 and CloudFront, all in Terraform, with zero-downtime deploys and automatic rollback
+- **Infrastructure:** AWS ECS Fargate, RDS, ElastiCache, S3 and CloudFront, with Terraform, zero-downtime deploys and automatic rollback
 - **Performance:** the heaviest list views went from ~17 s to under 1 s
 - **Applied AI:** ML lead scoring, plus LLM and voice agents exposed over MCP
 
-The code is private. **[Here is an interactive walkthrough of how it works inside](https://camiloquinteror92.github.io/hoja-de-vida/#portfolio)**: a request, real-time updates, integrations and a deploy, step by step.
+The code is private. **[Here is an interactive walkthrough of how it works inside](https://camiloquinteror92.github.io/hoja-de-vida/#portfolio)**: a request, real-time updates, integrations and a deploy, step by step, plus three simulators you can play with.
 
 ### Before that
 
