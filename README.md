@@ -1,71 +1,49 @@
-<h1 align="center">Hi, I'm Camilo Quintero 👋</h1>
-<h3 align="center">Economist · Python Developer · AI & Fintech Builder</h3>
+<h1 align="center">Camilo Quintero</h1>
+<h3 align="center">Senior Backend Engineer · Python / Django / AWS</h3>
 
 <p align="center">
-  <em>The economist who builds the software.</em><br/>
-  I combine economics, financial modeling and full-stack development to build products at the intersection of <b>finance and technology</b>.
+  I build multi-tenant SaaS on AWS, end to end: data model, APIs, real-time features, integrations and infrastructure.<br/>
+  Economist by training, so I build for the business outcome, not just the ticket.
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/camiloquinteror/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <a href="mailto:camiloquinteror@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <img src="https://img.shields.io/badge/Open%20to-Remote%20%C2%B7%20USD%20%2F%20Colombia-2ea44f?style=for-the-badge" alt="Open to work"/>
+  <a href="https://camiloquinteror92.github.io/hoja-de-vida/#portfolio"><img src="https://img.shields.io/badge/Portfolio-0071E3?style=for-the-badge" alt="Portfolio"/></a>
+  <a href="https://camiloquinteror92.github.io/hoja-de-vida/"><img src="https://img.shields.io/badge/CV-1D1D1F?style=for-the-badge" alt="CV"/></a>
+  <a href="https://www.linkedin.com/in/camilo-quinteror/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:camiloquinteror@outlook.com"><img src="https://img.shields.io/badge/Email-1D5A86?style=for-the-badge" alt="Email"/></a>
 </p>
 
----
-
-### 🚀 About me
-
-- 🎓 **Economist** (Pontificia Universidad Javeriana) turned software developer.
-- 💸 I build at the **intersection of finance and tech** — fintech apps, financial modeling, data analytics and automation.
-- 🐍 Day-to-day in **Python** (Django, Flask), **React** and the modern web stack.
-- 🤖 **AI / LLM enthusiast** — building tools that put models to work on real financial problems.
-- 🚀 Serial entrepreneur: founded **Veci**, **Fit your Food** and other B2C / B2B / B2B2C ventures.
-- 🌎 Based in Colombia · English **B2** · Open to **remote roles (USD or Colombia)**.
+<p align="center"><b>Open to senior backend roles, remote, full-time or contract.</b></p>
 
 ---
 
-### 🛠️ Tech Stack
+### What I'm building now
+
+**CTO at OWLY.** Owly CRM is a multi-tenant sales platform for real-estate developers in Colombia. I built it from the first commit to production.
+
+- **Backend:** Django / DRF, PostgreSQL 16, Redis and Celery across 40 modular apps, with tenant isolation enforced in CI
+- **Real time:** WebSockets with Django Channels and Redis, replacing 5-second polling
+- **Integrations:** a construction ERP (154 endpoints, two-way sync) and a mortgage bank (mutual TLS, AES-GCM, OAuth)
+- **Infrastructure:** AWS ECS Fargate, RDS, ElastiCache, S3 and CloudFront, all in Terraform, with zero-downtime deploys and automatic rollback
+- **Performance:** the heaviest list views went from ~17 s to under 1 s
+- **Applied AI:** ML lead scoring, plus LLM and voice agents exposed over MCP
+
+The code is private. **[Here is an interactive walkthrough of how it works inside](https://camiloquinteror92.github.io/hoja-de-vida/#portfolio)**: a request, real-time updates, integrations and a deploy, step by step.
+
+### Before that
+
+- **MO Technologies** · Backend Developer II (2023–2025). Python / Django microservices for a lending platform. Caught an illegal interest-capitalization defect in a digital bank's credit core before launch.
+- **Founder & CEO** of Veci and other startups (2015–2022) · **Investment Analyst** at Corpbanca (2014–2015)
+
+### Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
+![Celery](https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-844FBA?style=flat-square&logo=terraform&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-**Domain:** Financial modeling · Investment analysis · Data analytics & visualization · Product & growth · Automation
-
----
-
-### 📌 Featured Projects
-
-| Project | What it is | Stack |
-|---|---|---|
-| 💰 [appMO](https://github.com/camiloquinteror92/appMO) | Loans, payments & user-administration platform | Python · Django |
-| 📊 [Caminos](https://github.com/camiloquinteror92/Caminos) | Flask report generator (filters, API ingest, PDF/CSV export) | Flask · Jinja2 |
-| 🏦 [Mesada Pensional](https://github.com/camiloquinteror92/mesada-pensional) | Colombian pension calculator | JavaScript |
-| 🏛️ [ARQX Studio 3D](https://github.com/camiloquinteror92/arqx-studio-3d) | Browser-based 3D architectural modeler | JavaScript · 3D |
-| 🧩 [MateBlocks](https://github.com/camiloquinteror92/MateBlocks) | Educational math adventure game | JavaScript |
-| 🕹️ [Web Kombat](https://github.com/camiloquinteror92/web-kombat) | Retro-style fighting game | JavaScript · Canvas |
-
-> More games & experiments are pinned on my profile 👇
-
----
-
-### 📈 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=camiloquinteror92&show_icons=true&theme=tokyonight&hide_border=true" alt="stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=camiloquinteror92&layout=compact&theme=tokyonight&hide_border=true" alt="top langs"/>
-</p>
-
----
-
-<p align="center"><i>Disponible para roles remotos en desarrollo, fintech y producto. ¡Hablemos! 📬</i></p>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
